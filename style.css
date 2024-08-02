@@ -1,0 +1,42 @@
+.log{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    padding: 100px;
+}
+.container, .container1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    border: 1px solid;
+}
+.imagen{
+    width: 50%;    
+}
+
+.bills img, .freezer img, .vegeta img, .goten img{
+    border: 1px solid;
+    width: 80%;
+    height: 45%;
+    margin: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width:250px;
+}
+p{
+    font-size: 100px;
+    font-weight: bold;
+}
+.conta{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+
